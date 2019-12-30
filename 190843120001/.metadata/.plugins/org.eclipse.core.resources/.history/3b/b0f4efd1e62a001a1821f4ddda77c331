@@ -1,0 +1,32 @@
+
+public class Google
+{
+
+	public static void main(String[] args) 
+	{
+		System.setProperties("webdriver.driver.chromedriver","D:\\Chromedriver\\chromedriver.exe");
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

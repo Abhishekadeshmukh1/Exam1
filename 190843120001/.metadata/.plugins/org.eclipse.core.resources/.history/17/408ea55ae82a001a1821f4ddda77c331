@@ -1,0 +1,100 @@
+import java.net.URL;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Google
+{
+
+	public static void main(String[] args) throws Exception 
+	{
+		System.setProperty("webdriver.driver.chromedriver","D:\\Chromedriver\\chromedriver.exe");
+		
+		WebDriver driver=new ChromeDriver();
+		
+		driver.get("https://accounts.google.com/SignUp");
+		
+		driver.findElement(By.id("firstName")).sendKeys("xyz");;
+
+	}
+
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*package google;
+
+
+	  
+	       driver.manage().window().maximize();
+	  
+	       driver.get("https://accounts.google.com/SignUp");
+	  
+	       driver.findElement(By.id("firstName")).sendKeys("Selenium");
+	       driver.findElement(By.id("lastName")).sendKeys("group015");
+	       driver.findElement(By.id("username")).sendKeys("saurabh");
+	       driver.findElement(By.name("Passwd")).sendKeys("DemoPassword");
+	       driver.findElement(By.name("ConfirmPasswd")).sendKeys("DemoPassword");
+	       /*driver.findElement(By.cssSelector("div[title='Birthday']")).sendKeys("March");
+	       driver.findElement(By.id("BirthDay")).sendKeys("12");
+	       driver.findElement(By.id("BirthYear")).sendKeys("1990");
+	       driver.findElement(By.cssSelector(" div[title='Gender']")).sendKeys("Male");
+	       driver.findElement(By.id("RecoveryPhoneNumber")).sendKeys("9123455432");
+	       driver.findElement(By.id("RecoveryEmailAddress")).sendKeys("seleniumtraining11292017@gmail.com");
+	       driver.findElement(By.cssSelector("#CountryCode div[title='Location']")).sendKeys("India");
+	  */
+	
+
